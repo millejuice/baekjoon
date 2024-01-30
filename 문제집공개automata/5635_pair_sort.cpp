@@ -16,6 +16,7 @@ int main(){
     for(int i=0;i<n;i++){
         cin >> stu[i].second.second >> stu[i].second.first >> stu[i].first.second >> stu[i].first.first;
     }
+    // pair의 first를 가지곡 비교
     sort(stu.begin(),stu.end());
     cout<<stu[n-1].second.second<<"\n"<<stu[0].second.second<<endl;
 }
